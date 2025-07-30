@@ -5,6 +5,10 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import json
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Add utils to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'utils'))
@@ -37,8 +41,78 @@ def main():
     
     # Google Knowledge Graph API settings
     st.sidebar.subheader("Google KG API Settings")
-    api_key = st.sidebar.text_input("Google API Key", type="password", 
-                                   help="Get your API key from Google Cloud Console")
+    
+    # Get API key from environment
+    env_api_key = os.getenv("GOOGLE_API_KEY", "")
+    
+    # API key management
+    api_key_source = st.sidebar.radio(
+        "API Key Source",
+        ["Environment Variable", "Manual Input"],
+        help="Choose whether to use the API key from environment variables or enter manually"
+    )
+    
+    if api_key_source == "Environment Variable":
+        if env_api_key:
+            st.sidebar.success(f"✅ Using API key from environment: {env_api_key[:10]}...{env_api_key[-4:] if len(env_api_key) > 14 else '***'}")
+            api_key = env_api_key
+        else:
+            st.sidebar.warning("⚠️ No GOOGLE_API_KEY found in environment variables")
+            st.sidebar.info("💡 Set your API key in .env file or choose Manual Input")
+            api_key = ""
+    else:
+        api_key = st.sidebar.text_input(
+            "Google API Key", 
+            type="password",
+            help="Get your API key from Google Cloud Console"
+        )
+        
+        # Show copy button for environment variable
+        if env_api_key:
+            col1, col2 = st.sidebar.columns([3, 1])
+            with col1:
+                st.text_input(
+                    "Environment API Key (read-only)",
+                    value=f"{env_api_key[:10]}...{env_api_key[-4:] if len(env_api_key) > 14 else '***'}",
+                    disabled=True,
+                    help="API key from environment variable"
+                )
+            with col2:
+                if st.button("📋 Copy", help="Copy environment API key to clipboard"):
+                    # Use streamlit's clipboard functionality
+                    st.write("API key copied to clipboard!")
+                    # Store in session state for potential use
+                    st.session_state.copied_api_key = env_api_key
+                    # Show the full key temporarily for copying
+                    st.code(env_api_key, language=None)
+                    st.info("🔑 API key displayed above - copy it manually")
+    
+    # API Key Setup Help
+    if not api_key:
+        with st.sidebar.expander("🔑 How to get a Google API Key"):
+            st.markdown("""
+            **1. Go to Google Cloud Console:**
+            - Visit [Google Cloud Console](https://console.cloud.google.com/)
+            - Create a new project or select existing one
+            
+            **2. Enable Knowledge Graph API:**
+            - Go to APIs & Services > Library
+            - Search for "Knowledge Graph API"
+            - Click Enable
+            
+            **3. Create API Key:**
+            - Go to APIs & Services > Credentials
+            - Click "Create Credentials" > "API Key"
+            - Copy the generated key
+            
+            **4. Set up in .env file:**
+            ```
+            GOOGLE_API_KEY=your_api_key_here
+            ```
+            
+            **5. Or use Manual Input:**
+            - Paste the key in the input field above
+            """)
     
     # Data generation section
     st.sidebar.subheader("Internal HR Data")
@@ -52,6 +126,31 @@ def main():
                 num_policies=10
             )
             st.sidebar.success("HR data generated successfully!")
+    
+    # API Key Status
+    st.sidebar.subheader("API Key Status")
+    if api_key:
+        if api_key == env_api_key:
+            st.sidebar.success("✅ Using environment API key")
+        else:
+            st.sidebar.info("✅ Using manual API key")
+    else:
+        st.sidebar.error("❌ No API key provided")
+        st.sidebar.info("💡 Will use mock mode for demonstration")
+    
+    # Test API Key
+    if api_key and st.sidebar.button("🧪 Test API Key"):
+        with st.spinner("Testing API key..."):
+            try:
+                test_rag = GoogleKnowledgeGraphRAG(api_key=api_key, hr_data={})
+                test_results = test_rag.search_entities("Google", limit=1)
+                if test_results:
+                    st.sidebar.success("✅ API key is valid!")
+                    st.sidebar.info(f"Found {len(test_results)} test entities")
+                else:
+                    st.sidebar.warning("⚠️ API key works but no test results found")
+            except Exception as e:
+                st.sidebar.error(f"❌ API key test failed: {str(e)}")
     
     # Initialize Google KG RAG
     if st.sidebar.button("Initialize Google KG RAG"):

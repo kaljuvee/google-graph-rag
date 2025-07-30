@@ -1,10 +1,7 @@
 {
-  "timestamp": "2025-07-30T11:27:57.984209",
-  "test_name": "Google Knowledge Graph API Key Tests",
-  "results": {
-    "tests_run": 7,
-    "failures": 3,
-    "errors": 1,
-    "success_rate": 0.42857142857142855
-  }
+  "timestamp": "2025-07-30T11:31:14.814217",
+  "test_name": "Google Knowledge Graph API Key Test",
+  "success": false,
+  "api_key_present": false,
+  "api_key_preview": null
 }
