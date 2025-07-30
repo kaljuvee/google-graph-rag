@@ -105,7 +105,7 @@ class TestGoogleKGAPI(unittest.TestCase):
             # Verify the API call was made with the correct key
             mock_get.assert_called()
             call_args = mock_get.call_args
-            self.assertIn('valid_test_key', call_args[1]['params']['key'])
+            self.assertEqual(call_args[1]['params']['key'], 'valid_test_key')
             print("✅ API key correctly used in entity search request")
             
             # Verify results
@@ -145,7 +145,7 @@ class TestGoogleKGAPI(unittest.TestCase):
             # Verify the API call was made with the correct key
             mock_get.assert_called()
             call_args = mock_get.call_args
-            self.assertIn('key=valid_test_key', call_args[1]['params'])
+            self.assertEqual(call_args[1]['params']['key'], 'valid_test_key')
             print("✅ API key correctly used in hybrid search request")
             
             # Verify results
