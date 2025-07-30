@@ -1,0 +1,35 @@
+{
+  "hybrid_search": {
+    "employment law": {
+      "Internal Only": [],
+      "External Only": [],
+      "Hybrid (Internal + External)": []
+    },
+    "workplace safety regulations": {
+      "Internal Only": [],
+      "External Only": [],
+      "Hybrid (Internal + External)": []
+    },
+    "employee benefits requirements": {
+      "Internal Only": [],
+      "External Only": [],
+      "Hybrid (Internal + External)": []
+    },
+    "discrimination policies": {
+      "Internal Only": [],
+      "External Only": [],
+      "Hybrid (Internal + External)": []
+    },
+    "remote work guidelines": {
+      "Internal Only": [],
+      "External Only": [],
+      "Hybrid (Internal + External)": []
+    }
+  },
+  "entity_search": {
+    "Google": [],
+    "Microsoft": [],
+    "Apple Inc": [],
+    "Amazon": []
+  }
+}

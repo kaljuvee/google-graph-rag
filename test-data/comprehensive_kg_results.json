@@ -1,0 +1,32 @@
+{
+  "results": {
+    "employment law": {
+      "internal": [],
+      "external": []
+    },
+    "workplace safety": {
+      "internal": [],
+      "external": []
+    },
+    "employee benefits": {
+      "internal": [],
+      "external": []
+    },
+    "remote work": {
+      "internal": [
+        {
+          "content": "title: Remote Work Policy | content: The company supports flexible work arrangements including remote work options. Employees may work remotely up to 3 days per week with manager approval. Remote work agreements must be documented and reviewed quarterly. All remote workers must maintain reliable internet and appropriate workspace. | type: Remote Work",
+          "score": 1.0,
+          "metadata": {
+            "type": "policy",
+            "id": "policy_006",
+            "department": "Engineering"
+          }
+        }
+      ],
+      "external": []
+    }
+  },
+  "execution_time": 0.00015020370483398438,
+  "timestamp": "2025-07-30T11:24:07.085311"
+}

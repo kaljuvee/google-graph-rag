@@ -1,0 +1,569 @@
+{
+  "employees": [
+    {
+      "id": "emp_001",
+      "name": "Charles Rodriguez",
+      "email": "employee1@company.com",
+      "department": "Engineering",
+      "job_title": "DevOps Engineer",
+      "hire_date": "2024-04-08T11:23:10.365937",
+      "salary": 116125,
+      "manager_id": null,
+      "location": "San Francisco",
+      "employment_type": "Contract",
+      "benefits_enrolled": false,
+      "performance_rating": "Below",
+      "last_updated": "2025-07-30T11:23:10.365955"
+    },
+    {
+      "id": "emp_002",
+      "name": "Emily Brown",
+      "email": "employee2@company.com",
+      "department": "HR",
+      "job_title": "Recruiter",
+      "hire_date": "2024-11-03T11:23:10.365962",
+      "salary": 101291,
+      "manager_id": "emp_001",
+      "location": "Chicago",
+      "employment_type": "Part-time",
+      "benefits_enrolled": false,
+      "performance_rating": "Exceeds",
+      "last_updated": "2025-07-30T11:23:10.365971"
+    },
+    {
+      "id": "emp_003",
+      "name": "Michael Garcia",
+      "email": "employee3@company.com",
+      "department": "HR",
+      "job_title": "HR Director",
+      "hire_date": "2025-05-14T11:23:10.365982",
+      "salary": 76516,
+      "manager_id": "emp_001",
+      "location": "New York",
+      "employment_type": "Part-time",
+      "benefits_enrolled": true,
+      "performance_rating": "Exceeds",
+      "last_updated": "2025-07-30T11:23:10.365989"
+    },
+    {
+      "id": "emp_004",
+      "name": "Charles Davis",
+      "email": "employee4@company.com",
+      "department": "Engineering",
+      "job_title": "Software Engineer",
+      "hire_date": "2020-11-05T11:23:10.365993",
+      "salary": 122824,
+      "manager_id": "emp_001",
+      "location": "Chicago",
+      "employment_type": "Contract",
+      "benefits_enrolled": true,
+      "performance_rating": "Meets",
+      "last_updated": "2025-07-30T11:23:10.365998"
+    },
+    {
+      "id": "emp_005",
+      "name": "James Miller",
+      "email": "employee5@company.com",
+      "department": "Operations",
+      "job_title": "Operations Manager",
+      "hire_date": "2025-03-05T11:23:10.366002",
+      "salary": 116876,
+      "manager_id": "emp_001",
+      "location": "San Francisco",
+      "employment_type": "Part-time",
+      "benefits_enrolled": true,
+      "performance_rating": "Exceeds",
+      "last_updated": "2025-07-30T11:23:10.366007"
+    },
+    {
+      "id": "emp_006",
+      "name": "Charles Martinez",
+      "email": "employee6@company.com",
+      "department": "HR",
+      "job_title": "Benefits Coordinator",
+      "hire_date": "2022-12-02T11:23:10.366011",
+      "salary": 69055,
+      "manager_id": "emp_001",
+      "location": "Austin",
+      "employment_type": "Contract",
+      "benefits_enrolled": false,
+      "performance_rating": "Outstanding",
+      "last_updated": "2025-07-30T11:23:10.366016"
+    },
+    {
+      "id": "emp_007",
+      "name": "Patricia Gonzalez",
+      "email": "employee7@company.com",
+      "department": "Legal",
+      "job_title": "Legal Counsel",
+      "hire_date": "2023-03-07T11:23:10.366019",
+      "salary": 93070,
+      "manager_id": "emp_002",
+      "location": "Remote",
+      "employment_type": "Part-time",
+      "benefits_enrolled": true,
+      "performance_rating": "Meets",
+      "last_updated": "2025-07-30T11:23:10.366024"
+    },
+    {
+      "id": "emp_008",
+      "name": "Jennifer Jones",
+      "email": "employee8@company.com",
+      "department": "HR",
+      "job_title": "Benefits Coordinator",
+      "hire_date": "2023-05-28T11:23:10.366027",
+      "salary": 141515,
+      "manager_id": "emp_004",
+      "location": "New York",
+      "employment_type": "Part-time",
+      "benefits_enrolled": true,
+      "performance_rating": "Outstanding",
+      "last_updated": "2025-07-30T11:23:10.366032"
+    },
+    {
+      "id": "emp_009",
+      "name": "David Lopez",
+      "email": "employee9@company.com",
+      "department": "Sales",
+      "job_title": "Business Development",
+      "hire_date": "2021-01-18T11:23:10.366035",
+      "salary": 50545,
+      "manager_id": "emp_004",
+      "location": "New York",
+      "employment_type": "Contract",
+      "benefits_enrolled": true,
+      "performance_rating": "Below",
+      "last_updated": "2025-07-30T11:23:10.366039"
+    },
+    {
+      "id": "emp_010",
+      "name": "Michael Gonzalez",
+      "email": "employee10@company.com",
+      "department": "Marketing",
+      "job_title": "Brand Manager",
+      "hire_date": "2022-05-21T11:23:10.366043",
+      "salary": 102827,
+      "manager_id": "emp_008",
+      "location": "Austin",
+      "employment_type": "Part-time",
+      "benefits_enrolled": true,
+      "performance_rating": "Exceeds",
+      "last_updated": "2025-07-30T11:23:10.366048"
+    },
+    {
+      "id": "emp_011",
+      "name": "John Martinez",
+      "email": "employee11@company.com",
+      "department": "Engineering",
+      "job_title": "Senior Engineer",
+      "hire_date": "2022-03-09T11:23:10.366051",
+      "salary": 135994,
+      "manager_id": "emp_010",
+      "location": "New York",
+      "employment_type": "Full-time",
+      "benefits_enrolled": false,
+      "performance_rating": "Meets",
+      "last_updated": "2025-07-30T11:23:10.366056"
+    },
+    {
+      "id": "emp_012",
+      "name": "Patricia Smith",
+      "email": "employee12@company.com",
+      "department": "Engineering",
+      "job_title": "Engineering Manager",
+      "hire_date": "2023-08-24T11:23:10.366062",
+      "salary": 69837,
+      "manager_id": "emp_003",
+      "location": "San Francisco",
+      "employment_type": "Full-time",
+      "benefits_enrolled": false,
+      "performance_rating": "Exceeds",
+      "last_updated": "2025-07-30T11:23:10.366067"
+    },
+    {
+      "id": "emp_013",
+      "name": "Charles Hernandez",
+      "email": "employee13@company.com",
+      "department": "Legal",
+      "job_title": "Compliance Officer",
+      "hire_date": "2020-12-31T11:23:10.366070",
+      "salary": 130317,
+      "manager_id": "emp_009",
+      "location": "Remote",
+      "employment_type": "Full-time",
+      "benefits_enrolled": false,
+      "performance_rating": "Exceeds",
+      "last_updated": "2025-07-30T11:23:10.366075"
+    },
+    {
+      "id": "emp_014",
+      "name": "Jennifer Garcia",
+      "email": "employee14@company.com",
+      "department": "HR",
+      "job_title": "HR Specialist",
+      "hire_date": "2024-06-03T11:23:10.366078",
+      "salary": 113974,
+      "manager_id": "emp_011",
+      "location": "Austin",
+      "employment_type": "Full-time",
+      "benefits_enrolled": true,
+      "performance_rating": "Exceeds",
+      "last_updated": "2025-07-30T11:23:10.366084"
+    },
+    {
+      "id": "emp_015",
+      "name": "Jennifer Davis",
+      "email": "employee15@company.com",
+      "department": "Legal",
+      "job_title": "Legal Director",
+      "hire_date": "2023-05-05T11:23:10.366087",
+      "salary": 125973,
+      "manager_id": "emp_010",
+      "location": "New York",
+      "employment_type": "Contract",
+      "benefits_enrolled": false,
+      "performance_rating": "Meets",
+      "last_updated": "2025-07-30T11:23:10.366091"
+    }
+  ],
+  "policies": [
+    {
+      "id": "policy_001",
+      "title": "Safety Policy",
+      "type": "Safety",
+      "content": "Employee safety is our top priority. All employees must follow safety protocols, report hazards immediately, and participate in required safety training. Personal protective equipment will be provided where necessary. Emergency procedures are posted throughout the facility.",
+      "department": "Finance",
+      "effective_date": "2024-11-04T11:23:10.366098",
+      "last_updated": "2025-07-07T11:23:10.366101",
+      "version": "v4.1",
+      "approval_status": "Approved",
+      "priority": "Low",
+      "doc_type": "Policy",
+      "tags": [
+        "safety",
+        "hr",
+        "policy"
+      ],
+      "applies_to": "Managers Only"
+    },
+    {
+      "id": "policy_002",
+      "title": "Remote Work Policy",
+      "type": "Remote Work",
+      "content": "The company supports flexible work arrangements including remote work options. Employees may work remotely up to 3 days per week with manager approval. Remote work agreements must be documented and reviewed quarterly. All remote workers must maintain reliable internet and appropriate workspace.",
+      "department": "Operations",
+      "effective_date": "2024-10-11T11:23:10.366111",
+      "last_updated": "2025-07-08T11:23:10.366114",
+      "version": "v2.1",
+      "approval_status": "Approved",
+      "priority": "High",
+      "doc_type": "Policy",
+      "tags": [
+        "remote work",
+        "hr",
+        "policy"
+      ],
+      "applies_to": "Managers Only"
+    },
+    {
+      "id": "policy_003",
+      "title": "Benefits Policy",
+      "type": "Benefits",
+      "content": "The company provides comprehensive benefits including health insurance, dental, vision, 401(k) with company matching, life insurance, and disability coverage. Benefits enrollment occurs during the annual open enrollment period or within 30 days of hire. Contact HR for detailed benefit information.",
+      "department": "Marketing",
+      "effective_date": "2025-03-03T11:23:10.366123",
+      "last_updated": "2025-07-25T11:23:10.366126",
+      "version": "v2.9",
+      "approval_status": "Approved",
+      "priority": "Low",
+      "doc_type": "Policy",
+      "tags": [
+        "benefits",
+        "hr",
+        "policy"
+      ],
+      "applies_to": "Full-time Only"
+    },
+    {
+      "id": "policy_004",
+      "title": "Safety Policy",
+      "type": "Safety",
+      "content": "Employee safety is our top priority. All employees must follow safety protocols, report hazards immediately, and participate in required safety training. Personal protective equipment will be provided where necessary. Emergency procedures are posted throughout the facility.",
+      "department": "All",
+      "effective_date": "2024-12-31T11:23:10.366132",
+      "last_updated": "2025-07-18T11:23:10.366134",
+      "version": "v2.4",
+      "approval_status": "Approved",
+      "priority": "Low",
+      "doc_type": "Policy",
+      "tags": [
+        "safety",
+        "hr",
+        "policy"
+      ],
+      "applies_to": "Managers Only"
+    },
+    {
+      "id": "policy_005",
+      "title": "Diversity Policy",
+      "type": "Diversity",
+      "content": "The company is committed to fostering a diverse and inclusive workplace. We prohibit discrimination based on race, gender, age, religion, sexual orientation, or any other protected characteristic. Diversity training is mandatory for all employees and managers.",
+      "department": "Finance",
+      "effective_date": "2025-01-20T11:23:10.366140",
+      "last_updated": "2025-07-19T11:23:10.366142",
+      "version": "v1.5",
+      "approval_status": "Approved",
+      "priority": "Medium",
+      "doc_type": "Policy",
+      "tags": [
+        "diversity",
+        "hr",
+        "policy"
+      ],
+      "applies_to": "Managers Only"
+    },
+    {
+      "id": "policy_006",
+      "title": "Compensation Policy",
+      "type": "Compensation",
+      "content": "Compensation is based on job responsibilities, performance, market rates, and internal equity. Salary reviews occur annually as part of the performance evaluation process. The company maintains a merit-based pay philosophy with opportunities for advancement.",
+      "department": "Operations",
+      "effective_date": "2025-03-25T11:23:10.366147",
+      "last_updated": "2025-07-18T11:23:10.366150",
+      "version": "v2.2",
+      "approval_status": "Approved",
+      "priority": "Low",
+      "doc_type": "Policy",
+      "tags": [
+        "compensation",
+        "hr",
+        "policy"
+      ],
+      "applies_to": "All Employees"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_001",
+      "title": "Benefits Enrollment Guide",
+      "content": "Benefits Enrollment Guide - Step-by-step guide for selecting and enrolling in company benefits.",
+      "doc_type": "Guide",
+      "department": "Finance",
+      "created_date": "2025-04-18T11:23:10.366160",
+      "last_updated": "2025-07-01T11:23:10.366163",
+      "author": "HR Team",
+      "priority": "High",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "guide",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_002",
+      "title": "Policy Document 2",
+      "content": "This is a policy document containing important HR information and procedures.",
+      "doc_type": "Policy",
+      "department": "Legal",
+      "created_date": "2025-01-15T11:23:10.366169",
+      "last_updated": "2025-07-14T11:23:10.366172",
+      "author": "HR Team",
+      "priority": "Medium",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "policy",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_003",
+      "title": "New Employee Onboarding Guide",
+      "content": "New Employee Onboarding Guide - Complete guide for new hires covering first day procedures, benefits enrollment, and company culture.",
+      "doc_type": "Guide",
+      "department": "Legal",
+      "created_date": "2025-03-13T11:23:10.366177",
+      "last_updated": "2025-07-09T11:23:10.366180",
+      "author": "HR Team",
+      "priority": "Low",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "guide",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_004",
+      "title": "IT Equipment Request",
+      "content": "IT Equipment Request - Request new computer equipment or software licenses.",
+      "doc_type": "Form",
+      "department": "Marketing",
+      "created_date": "2025-07-03T11:23:10.366186",
+      "last_updated": "2025-07-27T11:23:10.366189",
+      "author": "HR Team",
+      "priority": "Medium",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "form",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_005",
+      "title": "New Employee Onboarding Guide",
+      "content": "New Employee Onboarding Guide - Complete guide for new hires covering first day procedures, benefits enrollment, and company culture.",
+      "doc_type": "Guide",
+      "department": "Operations",
+      "created_date": "2025-03-11T11:23:10.366193",
+      "last_updated": "2025-07-25T11:23:10.366195",
+      "author": "HR Team",
+      "priority": "Medium",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "guide",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_006",
+      "title": "Manual Document 6",
+      "content": "This is a manual document containing important HR information and procedures.",
+      "doc_type": "Manual",
+      "department": "Sales",
+      "created_date": "2024-08-02T11:23:10.366200",
+      "last_updated": "2025-07-16T11:23:10.366202",
+      "author": "HR Team",
+      "priority": "Low",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "manual",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_007",
+      "title": "Benefits Enrollment Guide",
+      "content": "Benefits Enrollment Guide - Step-by-step guide for selecting and enrolling in company benefits.",
+      "doc_type": "Guide",
+      "department": "All",
+      "created_date": "2025-02-12T11:23:10.366207",
+      "last_updated": "2025-07-19T11:23:10.366209",
+      "author": "HR Team",
+      "priority": "High",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "guide",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_008",
+      "title": "Promotion Procedure",
+      "content": "Promotion Procedure - Criteria and process for employee promotions and career advancement.",
+      "doc_type": "Procedure",
+      "department": "Sales",
+      "created_date": "2025-05-29T11:23:10.366213",
+      "last_updated": "2025-07-24T11:23:10.366215",
+      "author": "HR Team",
+      "priority": "High",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "procedure",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_009",
+      "title": "Manual Document 9",
+      "content": "This is a manual document containing important HR information and procedures.",
+      "doc_type": "Manual",
+      "department": "HR",
+      "created_date": "2025-04-02T11:23:10.366219",
+      "last_updated": "2025-07-05T11:23:10.366222",
+      "author": "HR Team",
+      "priority": "Medium",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "manual",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_010",
+      "title": "Manual Document 10",
+      "content": "This is a manual document containing important HR information and procedures.",
+      "doc_type": "Manual",
+      "department": "Operations",
+      "created_date": "2025-04-07T11:23:10.366226",
+      "last_updated": "2025-07-19T11:23:10.366228",
+      "author": "HR Team",
+      "priority": "Low",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "manual",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_011",
+      "title": "IT Equipment Request",
+      "content": "IT Equipment Request - Request new computer equipment or software licenses.",
+      "doc_type": "Form",
+      "department": "Legal",
+      "created_date": "2025-01-11T11:23:10.366234",
+      "last_updated": "2025-07-16T11:23:10.366236",
+      "author": "HR Team",
+      "priority": "Medium",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "form",
+        "hr",
+        "documentation"
+      ]
+    },
+    {
+      "id": "doc_012",
+      "title": "Policy Document 12",
+      "content": "This is a policy document containing important HR information and procedures.",
+      "doc_type": "Policy",
+      "department": "Operations",
+      "created_date": "2024-12-10T11:23:10.366240",
+      "last_updated": "2025-07-25T11:23:10.366243",
+      "author": "HR Team",
+      "priority": "Low",
+      "status": "Active",
+      "file_type": "text",
+      "tags": [
+        "policy",
+        "hr",
+        "documentation"
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-07-30T11:23:10.366246",
+    "total_employees": 15,
+    "total_policies": 6,
+    "total_documents": 12
+  }
+}

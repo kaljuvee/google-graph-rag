@@ -1,0 +1,14 @@
+{
+  "vector_search": {
+    "total_results": 15,
+    "avg_results_per_query": 3.0
+  },
+  "graph_search": {
+    "total_results": 0,
+    "avg_results_per_query": 0.0
+  },
+  "knowledge_graph": {
+    "total_results": 8,
+    "avg_results_per_query": 2.0
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "What is the vacation policy?": [
+    {
+      "rank": 1,
+      "content": "Policy: Vacation Policy | Type: Vacation | Department: Marketing | Priority: High | Content: Employees are entitled to paid vacation time based on their length of service. New employees receive 10 days annually, increasing to 15 days after 2 years and 20 days after 5 years. Vacation requests must be submitted at least 2 weeks in advance and approved by the direct manager.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_003",
+        "title": "Vacation Policy",
+        "department": "Marketing",
+        "priority": "High",
+        "source": "policy_document"
+      },
+      "score": 0.6924346089363098,
+      "similarity": 0.6924346089363098
+    },
+    {
+      "rank": 2,
+      "content": "Policy: Vacation Policy | Type: Vacation | Department: All | Priority: High | Content: Employees are entitled to paid vacation time based on their length of service. New employees receive 10 days annually, increasing to 15 days after 2 years and 20 days after 5 years. Vacation requests must be submitted at least 2 weeks in advance and approved by the direct manager.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_008",
+        "title": "Vacation Policy",
+        "department": "All",
+        "priority": "High",
+        "source": "policy_document"
+      },
+      "score": 0.6907177567481995,
+      "similarity": 0.6907177567481995
+    },
+    {
+      "rank": 3,
+      "content": "Document: Time Off Request Form | Type: Form | Department: Legal | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_003",
+        "title": "Time Off Request Form",
+        "doc_type": "Form",
+        "department": "Legal",
+        "source": "hr_document"
+      },
+      "score": 0.39913779497146606,
+      "similarity": 0.39913779497146606
+    }
+  ],
+  "How do I submit a timesheet?": [
+    {
+      "rank": 1,
+      "content": "Document: Time Off Request Form | Type: Form | Department: Legal | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_003",
+        "title": "Time Off Request Form",
+        "doc_type": "Form",
+        "department": "Legal",
+        "source": "hr_document"
+      },
+      "score": 0.3579025864601135,
+      "similarity": 0.3579025864601135
+    },
+    {
+      "rank": 2,
+      "content": "Document: Expense Reimbursement Form | Type: Form | Department: Engineering | Content: Expense Reimbursement Form - Submit business expenses for reimbursement using this form.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_002",
+        "title": "Expense Reimbursement Form",
+        "doc_type": "Form",
+        "department": "Engineering",
+        "source": "hr_document"
+      },
+      "score": 0.3394985795021057,
+      "similarity": 0.3394985795021057
+    },
+    {
+      "rank": 3,
+      "content": "Document: Training Request Form | Type: Form | Department: Legal | Content: Training Request Form - Request approval for external training or conference attendance.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_012",
+        "title": "Training Request Form",
+        "doc_type": "Form",
+        "department": "Legal",
+        "source": "hr_document"
+      },
+      "score": 0.29754263162612915,
+      "similarity": 0.29754263162612915
+    }
+  ],
+  "Who is the HR manager for engineering?": [
+    {
+      "rank": 1,
+      "content": "Document: Manager's Handbook | Type: Guide | Department: Legal | Content: Manager's Handbook - Comprehensive guide for managers covering hiring, performance management, and employee relations.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_006",
+        "title": "Manager's Handbook",
+        "doc_type": "Guide",
+        "department": "Legal",
+        "source": "hr_document"
+      },
+      "score": 0.4634837508201599,
+      "similarity": 0.4634837508201599
+    },
+    {
+      "rank": 2,
+      "content": "Employee: William Rodriguez | Department: HR | Job Title: HR Specialist | Email: employee11@company.com | Location: Remote | Employment Type: Full-time | Hire Date: 2022-08-28T11:20:04.296229 | Performance Rating: Meets | Salary: $105,382",
+      "metadata": {
+        "type": "employee",
+        "id": "emp_011",
+        "name": "William Rodriguez",
+        "department": "HR",
+        "source": "employee_data"
+      },
+      "score": 0.40929049253463745,
+      "similarity": 0.40929049253463745
+    },
+    {
+      "rank": 3,
+      "content": "Document: Manual Document 7 | Type: Manual | Department: HR | Content: This is a manual document containing important HR information and procedures.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_007",
+        "title": "Manual Document 7",
+        "doc_type": "Manual",
+        "department": "HR",
+        "source": "hr_document"
+      },
+      "score": 0.4019194543361664,
+      "similarity": 0.4019194543361664
+    }
+  ],
+  "What are the health insurance benefits?": [
+    {
+      "rank": 1,
+      "content": "Policy: Benefits Policy | Type: Benefits | Department: Marketing | Priority: Low | Content: The company provides comprehensive benefits including health insurance, dental, vision, 401(k) with company matching, life insurance, and disability coverage. Benefits enrollment occurs during the annual open enrollment period or within 30 days of hire. Contact HR for detailed benefit information.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_004",
+        "title": "Benefits Policy",
+        "department": "Marketing",
+        "priority": "Low",
+        "source": "policy_document"
+      },
+      "score": 0.56246417760849,
+      "similarity": 0.56246417760849
+    },
+    {
+      "rank": 2,
+      "content": "Policy: Benefits Policy | Type: Benefits | Department: All | Priority: Medium | Content: The company provides comprehensive benefits including health insurance, dental, vision, 401(k) with company matching, life insurance, and disability coverage. Benefits enrollment occurs during the annual open enrollment period or within 30 days of hire. Contact HR for detailed benefit information.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_001",
+        "title": "Benefits Policy",
+        "department": "All",
+        "priority": "Medium",
+        "source": "policy_document"
+      },
+      "score": 0.5438882112503052,
+      "similarity": 0.5438882112503052
+    },
+    {
+      "rank": 3,
+      "content": "Document: Policy Document 15 | Type: Policy | Department: Finance | Content: This is a policy document containing important HR information and procedures.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_015",
+        "title": "Policy Document 15",
+        "doc_type": "Policy",
+        "department": "Finance",
+        "source": "hr_document"
+      },
+      "score": 0.2095799744129181,
+      "similarity": 0.2095799744129181
+    }
+  ],
+  "How to request parental leave?": [
+    {
+      "rank": 1,
+      "content": "Document: Time Off Request Form | Type: Form | Department: Legal | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_003",
+        "title": "Time Off Request Form",
+        "doc_type": "Form",
+        "department": "Legal",
+        "source": "hr_document"
+      },
+      "score": 0.5544369220733643,
+      "similarity": 0.5544369220733643
+    },
+    {
+      "rank": 2,
+      "content": "Document: Training Request Form | Type: Form | Department: Legal | Content: Training Request Form - Request approval for external training or conference attendance.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_012",
+        "title": "Training Request Form",
+        "doc_type": "Form",
+        "department": "Legal",
+        "source": "hr_document"
+      },
+      "score": 0.32633310556411743,
+      "similarity": 0.32633310556411743
+    },
+    {
+      "rank": 3,
+      "content": "Document: Exit Interview Procedure | Type: Procedure | Department: Finance | Content: Exit Interview Procedure - Process for conducting exit interviews with departing employees.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_011",
+        "title": "Exit Interview Procedure",
+        "doc_type": "Procedure",
+        "department": "Finance",
+        "source": "hr_document"
+      },
+      "score": 0.2941332459449768,
+      "similarity": 0.2941332459449768
+    }
+  ],
+  "What is the dress code policy?": [
+    {
+      "rank": 1,
+      "content": "Policy: Diversity Policy | Type: Diversity | Department: HR | Priority: High | Content: The company is committed to fostering a diverse and inclusive workplace. We prohibit discrimination based on race, gender, age, religion, sexual orientation, or any other protected characteristic. Diversity training is mandatory for all employees and managers.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_005",
+        "title": "Diversity Policy",
+        "department": "HR",
+        "priority": "High",
+        "source": "policy_document"
+      },
+      "score": 0.4455954432487488,
+      "similarity": 0.4455954432487488
+    },
+    {
+      "rank": 2,
+      "content": "Policy: Safety Policy | Type: Safety | Department: Marketing | Priority: Low | Content: Employee safety is our top priority. All employees must follow safety protocols, report hazards immediately, and participate in required safety training. Personal protective equipment will be provided where necessary. Emergency procedures are posted throughout the facility.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_002",
+        "title": "Safety Policy",
+        "department": "Marketing",
+        "priority": "Low",
+        "source": "policy_document"
+      },
+      "score": 0.3995049297809601,
+      "similarity": 0.3995049297809601
+    },
+    {
+      "rank": 3,
+      "content": "Policy: Training Policy | Type: Training | Department: Engineering | Priority: High | Content: The company is committed to employee development through various training programs. All employees must complete mandatory compliance training annually. Professional development opportunities are available with manager approval. Training records are maintained by HR.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_006",
+        "title": "Training Policy",
+        "department": "Engineering",
+        "priority": "High",
+        "source": "policy_document"
+      },
+      "score": 0.38618820905685425,
+      "similarity": 0.38618820905685425
+    }
+  ],
+  "How do I report harassment?": [
+    {
+      "rank": 1,
+      "content": "Document: Disciplinary Action Procedure | Type: Procedure | Department: Sales | Content: Disciplinary Action Procedure - Guidelines for addressing performance and conduct issues.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_004",
+        "title": "Disciplinary Action Procedure",
+        "doc_type": "Procedure",
+        "department": "Sales",
+        "source": "hr_document"
+      },
+      "score": 0.38103437423706055,
+      "similarity": 0.38103437423706055
+    },
+    {
+      "rank": 2,
+      "content": "Document: Disciplinary Action Procedure | Type: Procedure | Department: All | Content: Disciplinary Action Procedure - Guidelines for addressing performance and conduct issues.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_005",
+        "title": "Disciplinary Action Procedure",
+        "doc_type": "Procedure",
+        "department": "All",
+        "source": "hr_document"
+      },
+      "score": 0.3799404501914978,
+      "similarity": 0.3799404501914978
+    },
+    {
+      "rank": 3,
+      "content": "Document: Disciplinary Action Procedure | Type: Procedure | Department: Operations | Content: Disciplinary Action Procedure - Guidelines for addressing performance and conduct issues.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_016",
+        "title": "Disciplinary Action Procedure",
+        "doc_type": "Procedure",
+        "department": "Operations",
+        "source": "hr_document"
+      },
+      "score": 0.3653528094291687,
+      "similarity": 0.3653528094291687
+    }
+  ],
+  "What are the remote work policies?": [
+    {
+      "rank": 1,
+      "content": "Policy: Safety Policy | Type: Safety | Department: Marketing | Priority: Low | Content: Employee safety is our top priority. All employees must follow safety protocols, report hazards immediately, and participate in required safety training. Personal protective equipment will be provided where necessary. Emergency procedures are posted throughout the facility.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_002",
+        "title": "Safety Policy",
+        "department": "Marketing",
+        "priority": "Low",
+        "source": "policy_document"
+      },
+      "score": 0.38850152492523193,
+      "similarity": 0.38850152492523193
+    },
+    {
+      "rank": 2,
+      "content": "Policy: Training Policy | Type: Training | Department: Engineering | Priority: High | Content: The company is committed to employee development through various training programs. All employees must complete mandatory compliance training annually. Professional development opportunities are available with manager approval. Training records are maintained by HR.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_006",
+        "title": "Training Policy",
+        "department": "Engineering",
+        "priority": "High",
+        "source": "policy_document"
+      },
+      "score": 0.38557037711143494,
+      "similarity": 0.38557037711143494
+    },
+    {
+      "rank": 3,
+      "content": "Document: Policy Document 9 | Type: Policy | Department: Legal | Content: This is a policy document containing important HR information and procedures.",
+      "metadata": {
+        "type": "document",
+        "id": "doc_009",
+        "title": "Policy Document 9",
+        "doc_type": "Policy",
+        "department": "Legal",
+        "source": "hr_document"
+      },
+      "score": 0.328696072101593,
+      "similarity": 0.328696072101593
+    }
+  ]
+}
