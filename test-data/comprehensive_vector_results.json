@@ -3,223 +3,224 @@
     "What is the vacation policy?": [
       {
         "rank": 1,
-        "content": "Policy: Vacation Policy | Type: Vacation | Department: Marketing | Priority: Low | Content: Employees are entitled to paid vacation time based on their length of service. New employees receive 10 days annually, increasing to 15 days after 2 years and 20 days after 5 years. Vacation requests must be submitted at least 2 weeks in advance and approved by the direct manager.",
-        "metadata": {
-          "type": "policy",
-          "id": "policy_008",
-          "title": "Vacation Policy",
-          "department": "Marketing",
-          "priority": "Low",
-          "source": "policy_document"
-        },
-        "score": 0.6911975145339966,
-        "similarity": 0.6911975145339966
-      },
-      {
-        "rank": 2,
-        "content": "Policy: Sick Leave Policy | Type: Sick Leave | Department: Finance | Priority: High | Content: All employees are provided with sick leave benefits. Full-time employees accrue 8 hours of sick leave per month. Sick leave can be used for personal illness, medical appointments, or caring for immediate family members. A doctor's note may be required for absences exceeding 3 consecutive days.",
-        "metadata": {
-          "type": "policy",
-          "id": "policy_002",
-          "title": "Sick Leave Policy",
-          "department": "Finance",
-          "priority": "High",
-          "source": "policy_document"
-        },
-        "score": 0.4010159969329834,
-        "similarity": 0.4010159969329834
-      },
-      {
-        "rank": 3,
-        "content": "Policy: Remote Work Policy | Type: Remote Work | Department: Engineering | Priority: Low | Content: The company supports flexible work arrangements including remote work options. Employees may work remotely up to 3 days per week with manager approval. Remote work agreements must be documented and reviewed quarterly. All remote workers must maintain reliable internet and appropriate workspace.",
+        "content": "Policy: Vacation Policy | Type: Vacation | Department: HR | Priority: Low | Content: Employees are entitled to paid vacation time based on their length of service. New employees receive 10 days annually, increasing to 15 days after 2 years and 20 days after 5 years. Vacation requests must be submitted at least 2 weeks in advance and approved by the direct manager.",
         "metadata": {
           "type": "policy",
           "id": "policy_006",
-          "title": "Remote Work Policy",
-          "department": "Engineering",
+          "title": "Vacation Policy",
+          "department": "HR",
           "priority": "Low",
           "source": "policy_document"
         },
-        "score": 0.36398863792419434,
-        "similarity": 0.36398863792419434
+        "score": 0.6767760515213013,
+        "similarity": 0.6767760515213013
+      },
+      {
+        "rank": 2,
+        "content": "Policy: Sick Leave Policy | Type: Sick Leave | Department: Operations | Priority: Low | Content: All employees are provided with sick leave benefits. Full-time employees accrue 8 hours of sick leave per month. Sick leave can be used for personal illness, medical appointments, or caring for immediate family members. A doctor's note may be required for absences exceeding 3 consecutive days.",
+        "metadata": {
+          "type": "policy",
+          "id": "policy_009",
+          "title": "Sick Leave Policy",
+          "department": "Operations",
+          "priority": "Low",
+          "source": "policy_document"
+        },
+        "score": 0.4109209179878235,
+        "similarity": 0.4109209179878235
+      },
+      {
+        "rank": 3,
+        "content": "Document: Time Off Request Form | Type: Form | Department: HR | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
+        "metadata": {
+          "type": "document",
+          "id": "doc_006",
+          "title": "Time Off Request Form",
+          "doc_type": "Form",
+          "department": "HR",
+          "source": "hr_document"
+        },
+        "score": 0.3740312159061432,
+        "similarity": 0.3740312159061432
       }
     ],
     "How do I submit a timesheet?": [
       {
         "rank": 1,
-        "content": "Document: Expense Reimbursement Form | Type: Form | Department: All | Content: Expense Reimbursement Form - Submit business expenses for reimbursement using this form.",
+        "content": "Document: Time Off Request Form | Type: Form | Department: HR | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
         "metadata": {
           "type": "document",
-          "id": "doc_012",
-          "title": "Expense Reimbursement Form",
-          "doc_type": "Form",
-          "department": "All",
-          "source": "hr_document"
-        },
-        "score": 0.3321322202682495,
-        "similarity": 0.3321322202682495
-      },
-      {
-        "rank": 2,
-        "content": "Document: Training Request Form | Type: Form | Department: HR | Content: Training Request Form - Request approval for external training or conference attendance.",
-        "metadata": {
-          "type": "document",
-          "id": "doc_015",
-          "title": "Training Request Form",
+          "id": "doc_006",
+          "title": "Time Off Request Form",
           "doc_type": "Form",
           "department": "HR",
           "source": "hr_document"
         },
-        "score": 0.3192733824253082,
-        "similarity": 0.3192733824253082
+        "score": 0.38307544589042664,
+        "similarity": 0.38307544589042664
+      },
+      {
+        "rank": 2,
+        "content": "Document: Expense Reimbursement Form | Type: Form | Department: Sales | Content: Expense Reimbursement Form - Submit business expenses for reimbursement using this form.",
+        "metadata": {
+          "type": "document",
+          "id": "doc_023",
+          "title": "Expense Reimbursement Form",
+          "doc_type": "Form",
+          "department": "Sales",
+          "source": "hr_document"
+        },
+        "score": 0.34363213181495667,
+        "similarity": 0.34363213181495667
       },
       {
         "rank": 3,
-        "content": "Document: Training Request Form | Type: Form | Department: All | Content: Training Request Form - Request approval for external training or conference attendance.",
+        "content": "Document: Training Request Form | Type: Form | Department: Operations | Content: Training Request Form - Request approval for external training or conference attendance.",
         "metadata": {
           "type": "document",
-          "id": "doc_009",
+          "id": "doc_017",
           "title": "Training Request Form",
           "doc_type": "Form",
-          "department": "All",
+          "department": "Operations",
           "source": "hr_document"
         },
-        "score": 0.29916098713874817,
-        "similarity": 0.29916098713874817
+        "score": 0.31226837635040283,
+        "similarity": 0.31226837635040283
       }
     ],
     "Who is the HR manager for engineering?": [
       {
         "rank": 1,
-        "content": "Employee: David Gonzalez | Department: HR | Job Title: HR Manager | Email: employee28@company.com | Location: New York | Employment Type: Contract | Hire Date: 2024-02-08T11:24:03.408061 | Performance Rating: Exceeds | Salary: $130,448",
+        "content": "Document: Manager's Handbook | Type: Guide | Department: All | Content: Manager's Handbook - Comprehensive guide for managers covering hiring, performance management, and employee relations.",
         "metadata": {
-          "type": "employee",
-          "id": "emp_028",
-          "name": "David Gonzalez",
-          "department": "HR",
-          "source": "employee_data"
+          "type": "document",
+          "id": "doc_002",
+          "title": "Manager's Handbook",
+          "doc_type": "Guide",
+          "department": "All",
+          "source": "hr_document"
         },
-        "score": 0.40881580114364624,
-        "similarity": 0.40881580114364624
+        "score": 0.47275805473327637,
+        "similarity": 0.47275805473327637
       },
       {
         "rank": 2,
-        "content": "Document: Manual Document 18 | Type: Manual | Department: Marketing | Content: This is a manual document containing important HR information and procedures.",
+        "content": "Document: Policy Document 18 | Type: Policy | Department: Engineering | Content: This is a policy document containing important HR information and procedures.",
         "metadata": {
           "type": "document",
           "id": "doc_018",
-          "title": "Manual Document 18",
-          "doc_type": "Manual",
-          "department": "Marketing",
+          "title": "Policy Document 18",
+          "doc_type": "Policy",
+          "department": "Engineering",
           "source": "hr_document"
         },
-        "score": 0.382341593503952,
-        "similarity": 0.382341593503952
+        "score": 0.44586390256881714,
+        "similarity": 0.44586390256881714
       },
       {
         "rank": 3,
-        "content": "Document: Policy Document 22 | Type: Policy | Department: Finance | Content: This is a policy document containing important HR information and procedures.",
+        "content": "Document: Policy Document 15 | Type: Policy | Department: Engineering | Content: This is a policy document containing important HR information and procedures.",
         "metadata": {
           "type": "document",
-          "id": "doc_022",
-          "title": "Policy Document 22",
+          "id": "doc_015",
+          "title": "Policy Document 15",
           "doc_type": "Policy",
-          "department": "Finance",
+          "department": "Engineering",
           "source": "hr_document"
         },
-        "score": 0.368529349565506,
-        "similarity": 0.368529349565506
+        "score": 0.4448224902153015,
+        "similarity": 0.4448224902153015
       }
     ],
     "What are the health insurance benefits?": [
       {
         "rank": 1,
-        "content": "Policy: Benefits Policy | Type: Benefits | Department: Legal | Priority: High | Content: The company provides comprehensive benefits including health insurance, dental, vision, 401(k) with company matching, life insurance, and disability coverage. Benefits enrollment occurs during the annual open enrollment period or within 30 days of hire. Contact HR for detailed benefit information.",
+        "content": "Policy: Benefits Policy | Type: Benefits | Department: Finance | Priority: High | Content: The company provides comprehensive benefits including health insurance, dental, vision, 401(k) with company matching, life insurance, and disability coverage. Benefits enrollment occurs during the annual open enrollment period or within 30 days of hire. Contact HR for detailed benefit information.",
         "metadata": {
           "type": "policy",
-          "id": "policy_003",
+          "id": "policy_010",
           "title": "Benefits Policy",
-          "department": "Legal",
+          "department": "Finance",
           "priority": "High",
           "source": "policy_document"
         },
-        "score": 0.5460953712463379,
-        "similarity": 0.5460953712463379
+        "score": 0.5582203269004822,
+        "similarity": 0.5582203269004822
       },
       {
         "rank": 2,
-        "content": "Policy: Sick Leave Policy | Type: Sick Leave | Department: Finance | Priority: High | Content: All employees are provided with sick leave benefits. Full-time employees accrue 8 hours of sick leave per month. Sick leave can be used for personal illness, medical appointments, or caring for immediate family members. A doctor's note may be required for absences exceeding 3 consecutive days.",
+        "content": "Policy: Sick Leave Policy | Type: Sick Leave | Department: Operations | Priority: Low | Content: All employees are provided with sick leave benefits. Full-time employees accrue 8 hours of sick leave per month. Sick leave can be used for personal illness, medical appointments, or caring for immediate family members. A doctor's note may be required for absences exceeding 3 consecutive days.",
         "metadata": {
           "type": "policy",
-          "id": "policy_002",
+          "id": "policy_009",
           "title": "Sick Leave Policy",
-          "department": "Finance",
-          "priority": "High",
+          "department": "Operations",
+          "priority": "Low",
           "source": "policy_document"
         },
-        "score": 0.32858335971832275,
-        "similarity": 0.32858335971832275
+        "score": 0.3106149137020111,
+        "similarity": 0.3106149137020111
       },
       {
         "rank": 3,
-        "content": "Document: Benefits Enrollment Guide | Type: Guide | Department: Finance | Content: Benefits Enrollment Guide - Step-by-step guide for selecting and enrolling in company benefits.",
+        "content": "Policy: Compensation Policy | Type: Compensation | Department: HR | Priority: High | Content: Compensation is based on job responsibilities, performance, market rates, and internal equity. Salary reviews occur annually as part of the performance evaluation process. The company maintains a merit-based pay philosophy with opportunities for advancement.",
         "metadata": {
-          "type": "document",
-          "id": "doc_006",
-          "title": "Benefits Enrollment Guide",
-          "doc_type": "Guide",
-          "department": "Finance",
-          "source": "hr_document"
+          "type": "policy",
+          "id": "policy_004",
+          "title": "Compensation Policy",
+          "department": "HR",
+          "priority": "High",
+          "source": "policy_document"
         },
-        "score": 0.2730830907821655,
-        "similarity": 0.2730830907821655
+        "score": 0.2164355218410492,
+        "similarity": 0.2164355218410492
       }
     ],
     "How to request parental leave?": [
       {
         "rank": 1,
-        "content": "Document: Training Request Form | Type: Form | Department: HR | Content: Training Request Form - Request approval for external training or conference attendance.",
+        "content": "Document: Time Off Request Form | Type: Form | Department: HR | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
         "metadata": {
           "type": "document",
-          "id": "doc_015",
-          "title": "Training Request Form",
+          "id": "doc_006",
+          "title": "Time Off Request Form",
           "doc_type": "Form",
           "department": "HR",
           "source": "hr_document"
         },
-        "score": 0.3294995129108429,
-        "similarity": 0.3294995129108429
+        "score": 0.5535004138946533,
+        "similarity": 0.5535004138946533
       },
       {
         "rank": 2,
-        "content": "Document: Training Request Form | Type: Form | Department: All | Content: Training Request Form - Request approval for external training or conference attendance.",
+        "content": "Document: Training Request Form | Type: Form | Department: Operations | Content: Training Request Form - Request approval for external training or conference attendance.",
         "metadata": {
           "type": "document",
-          "id": "doc_009",
+          "id": "doc_017",
           "title": "Training Request Form",
           "doc_type": "Form",
-          "department": "All",
+          "department": "Operations",
           "source": "hr_document"
         },
-        "score": 0.3181071877479553,
-        "similarity": 0.3181071877479553
+        "score": 0.308688223361969,
+        "similarity": 0.308688223361969
       },
       {
         "rank": 3,
-        "content": "Policy: Sick Leave Policy | Type: Sick Leave | Department: Finance | Priority: High | Content: All employees are provided with sick leave benefits. Full-time employees accrue 8 hours of sick leave per month. Sick leave can be used for personal illness, medical appointments, or caring for immediate family members. A doctor's note may be required for absences exceeding 3 consecutive days.",
+        "content": "Policy: Sick Leave Policy | Type: Sick Leave | Department: Operations | Priority: Low | Content: All employees are provided with sick leave benefits. Full-time employees accrue 8 hours of sick leave per month. Sick leave can be used for personal illness, medical appointments, or caring for immediate family members. A doctor's note may be required for absences exceeding 3 consecutive days.",
         "metadata": {
           "type": "policy",
-          "id": "policy_002",
+          "id": "policy_009",
           "title": "Sick Leave Policy",
-          "department": "Finance",
-          "priority": "High",
+          "department": "Operations",
+          "priority": "Low",
           "source": "policy_document"
         },
-        "score": 0.30055585503578186,
-        "similarity": 0.30055585503578186
+        "score": 0.30294954776763916,
+        "similarity": 0.30294954776763916
       }
     ]
   },
-  "execution_time": 3.6745517253875732,
-  "timestamp": "2025-07-30T11:24:07.083984"
+  "execution_time": 3.5671653747558594,
+  "timestamp": "2025-07-30T11:26:04.424593"
 }

@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-07-30T11:24:07.085576",
+  "timestamp": "2025-07-30T11:26:04.426376",
   "performance": {
-    "vector_search_time": 3.6745517253875732,
-    "graph_search_time": 0.0005490779876708984,
-    "knowledge_graph_time": 0.00015020370483398438
+    "vector_search_time": 3.5671653747558594,
+    "graph_search_time": 0.0005502700805664062,
+    "knowledge_graph_time": 0.00016832351684570312
   },
   "results_summary": {
     "vector_search": {

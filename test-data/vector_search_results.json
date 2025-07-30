@@ -2,264 +2,264 @@
   "What is the vacation policy?": [
     {
       "rank": 1,
-      "content": "Policy: Vacation Policy | Type: Vacation | Department: Marketing | Priority: High | Content: Employees are entitled to paid vacation time based on their length of service. New employees receive 10 days annually, increasing to 15 days after 2 years and 20 days after 5 years. Vacation requests must be submitted at least 2 weeks in advance and approved by the direct manager.",
+      "content": "Policy: Vacation Policy | Type: Vacation | Department: HR | Priority: High | Content: Employees are entitled to paid vacation time based on their length of service. New employees receive 10 days annually, increasing to 15 days after 2 years and 20 days after 5 years. Vacation requests must be submitted at least 2 weeks in advance and approved by the direct manager.",
       "metadata": {
         "type": "policy",
         "id": "policy_003",
         "title": "Vacation Policy",
-        "department": "Marketing",
+        "department": "HR",
         "priority": "High",
         "source": "policy_document"
       },
-      "score": 0.6924346089363098,
-      "similarity": 0.6924346089363098
+      "score": 0.6787773966789246,
+      "similarity": 0.6787773966789246
     },
     {
       "rank": 2,
-      "content": "Policy: Vacation Policy | Type: Vacation | Department: All | Priority: High | Content: Employees are entitled to paid vacation time based on their length of service. New employees receive 10 days annually, increasing to 15 days after 2 years and 20 days after 5 years. Vacation requests must be submitted at least 2 weeks in advance and approved by the direct manager.",
+      "content": "Policy: Remote Work Policy | Type: Remote Work | Department: Legal | Priority: Medium | Content: The company supports flexible work arrangements including remote work options. Employees may work remotely up to 3 days per week with manager approval. Remote work agreements must be documented and reviewed quarterly. All remote workers must maintain reliable internet and appropriate workspace.",
       "metadata": {
         "type": "policy",
         "id": "policy_008",
-        "title": "Vacation Policy",
-        "department": "All",
-        "priority": "High",
+        "title": "Remote Work Policy",
+        "department": "Legal",
+        "priority": "Medium",
         "source": "policy_document"
       },
-      "score": 0.6907177567481995,
-      "similarity": 0.6907177567481995
+      "score": 0.3545264005661011,
+      "similarity": 0.3545264005661011
     },
     {
       "rank": 3,
-      "content": "Document: Time Off Request Form | Type: Form | Department: Legal | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
+      "content": "Policy: Code of Conduct Policy | Type: Code of Conduct | Department: Finance | Priority: Low | Content: All employees must maintain the highest standards of professional conduct. This includes treating colleagues with respect, maintaining confidentiality, avoiding conflicts of interest, and complying with all applicable laws and regulations. Violations may result in disciplinary action up to and including termination.",
       "metadata": {
-        "type": "document",
-        "id": "doc_003",
-        "title": "Time Off Request Form",
-        "doc_type": "Form",
-        "department": "Legal",
-        "source": "hr_document"
+        "type": "policy",
+        "id": "policy_005",
+        "title": "Code of Conduct Policy",
+        "department": "Finance",
+        "priority": "Low",
+        "source": "policy_document"
       },
-      "score": 0.39913779497146606,
-      "similarity": 0.39913779497146606
+      "score": 0.32578855752944946,
+      "similarity": 0.32578855752944946
     }
   ],
   "How do I submit a timesheet?": [
     {
       "rank": 1,
-      "content": "Document: Time Off Request Form | Type: Form | Department: Legal | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
+      "content": "Document: Training Request Form | Type: Form | Department: Finance | Content: Training Request Form - Request approval for external training or conference attendance.",
       "metadata": {
         "type": "document",
         "id": "doc_003",
-        "title": "Time Off Request Form",
+        "title": "Training Request Form",
         "doc_type": "Form",
-        "department": "Legal",
+        "department": "Finance",
         "source": "hr_document"
       },
-      "score": 0.3579025864601135,
-      "similarity": 0.3579025864601135
+      "score": 0.33588990569114685,
+      "similarity": 0.33588990569114685
     },
     {
       "rank": 2,
-      "content": "Document: Expense Reimbursement Form | Type: Form | Department: Engineering | Content: Expense Reimbursement Form - Submit business expenses for reimbursement using this form.",
+      "content": "Document: Expense Reimbursement Form | Type: Form | Department: Marketing | Content: Expense Reimbursement Form - Submit business expenses for reimbursement using this form.",
       "metadata": {
         "type": "document",
-        "id": "doc_002",
+        "id": "doc_016",
         "title": "Expense Reimbursement Form",
         "doc_type": "Form",
-        "department": "Engineering",
+        "department": "Marketing",
         "source": "hr_document"
       },
-      "score": 0.3394985795021057,
-      "similarity": 0.3394985795021057
+      "score": 0.3311576843261719,
+      "similarity": 0.3311576843261719
     },
     {
       "rank": 3,
-      "content": "Document: Training Request Form | Type: Form | Department: Legal | Content: Training Request Form - Request approval for external training or conference attendance.",
+      "content": "Document: Training Request Form | Type: Form | Department: Sales | Content: Training Request Form - Request approval for external training or conference attendance.",
       "metadata": {
         "type": "document",
-        "id": "doc_012",
+        "id": "doc_007",
         "title": "Training Request Form",
         "doc_type": "Form",
-        "department": "Legal",
+        "department": "Sales",
         "source": "hr_document"
       },
-      "score": 0.29754263162612915,
-      "similarity": 0.29754263162612915
+      "score": 0.319820761680603,
+      "similarity": 0.319820761680603
     }
   ],
   "Who is the HR manager for engineering?": [
     {
       "rank": 1,
-      "content": "Document: Manager's Handbook | Type: Guide | Department: Legal | Content: Manager's Handbook - Comprehensive guide for managers covering hiring, performance management, and employee relations.",
+      "content": "Document: Manager's Handbook | Type: Guide | Department: Finance | Content: Manager's Handbook - Comprehensive guide for managers covering hiring, performance management, and employee relations.",
       "metadata": {
         "type": "document",
-        "id": "doc_006",
+        "id": "doc_013",
         "title": "Manager's Handbook",
         "doc_type": "Guide",
-        "department": "Legal",
+        "department": "Finance",
         "source": "hr_document"
       },
-      "score": 0.4634837508201599,
-      "similarity": 0.4634837508201599
+      "score": 0.4578453302383423,
+      "similarity": 0.4578453302383423
     },
     {
       "rank": 2,
-      "content": "Employee: William Rodriguez | Department: HR | Job Title: HR Specialist | Email: employee11@company.com | Location: Remote | Employment Type: Full-time | Hire Date: 2022-08-28T11:20:04.296229 | Performance Rating: Meets | Salary: $105,382",
+      "content": "Document: Manual Document 9 | Type: Manual | Department: Marketing | Content: This is a manual document containing important HR information and procedures.",
       "metadata": {
-        "type": "employee",
-        "id": "emp_011",
-        "name": "William Rodriguez",
-        "department": "HR",
-        "source": "employee_data"
+        "type": "document",
+        "id": "doc_009",
+        "title": "Manual Document 9",
+        "doc_type": "Manual",
+        "department": "Marketing",
+        "source": "hr_document"
       },
-      "score": 0.40929049253463745,
-      "similarity": 0.40929049253463745
+      "score": 0.38275662064552307,
+      "similarity": 0.38275662064552307
     },
     {
       "rank": 3,
-      "content": "Document: Manual Document 7 | Type: Manual | Department: HR | Content: This is a manual document containing important HR information and procedures.",
+      "content": "Employee: Richard Smith | Department: HR | Job Title: HR Manager | Email: employee11@company.com | Location: San Francisco | Employment Type: Contract | Hire Date: 2021-11-07T11:24:41.754718 | Performance Rating: Exceeds | Salary: $109,256",
       "metadata": {
-        "type": "document",
-        "id": "doc_007",
-        "title": "Manual Document 7",
-        "doc_type": "Manual",
+        "type": "employee",
+        "id": "emp_011",
+        "name": "Richard Smith",
         "department": "HR",
-        "source": "hr_document"
+        "source": "employee_data"
       },
-      "score": 0.4019194543361664,
-      "similarity": 0.4019194543361664
+      "score": 0.37889212369918823,
+      "similarity": 0.37889212369918823
     }
   ],
   "What are the health insurance benefits?": [
     {
       "rank": 1,
-      "content": "Policy: Benefits Policy | Type: Benefits | Department: Marketing | Priority: Low | Content: The company provides comprehensive benefits including health insurance, dental, vision, 401(k) with company matching, life insurance, and disability coverage. Benefits enrollment occurs during the annual open enrollment period or within 30 days of hire. Contact HR for detailed benefit information.",
+      "content": "Policy: Compensation Policy | Type: Compensation | Department: Sales | Priority: High | Content: Compensation is based on job responsibilities, performance, market rates, and internal equity. Salary reviews occur annually as part of the performance evaluation process. The company maintains a merit-based pay philosophy with opportunities for advancement.",
       "metadata": {
         "type": "policy",
-        "id": "policy_004",
-        "title": "Benefits Policy",
-        "department": "Marketing",
-        "priority": "Low",
+        "id": "policy_006",
+        "title": "Compensation Policy",
+        "department": "Sales",
+        "priority": "High",
         "source": "policy_document"
       },
-      "score": 0.56246417760849,
-      "similarity": 0.56246417760849
+      "score": 0.21260911226272583,
+      "similarity": 0.21260911226272583
     },
     {
       "rank": 2,
-      "content": "Policy: Benefits Policy | Type: Benefits | Department: All | Priority: Medium | Content: The company provides comprehensive benefits including health insurance, dental, vision, 401(k) with company matching, life insurance, and disability coverage. Benefits enrollment occurs during the annual open enrollment period or within 30 days of hire. Contact HR for detailed benefit information.",
+      "content": "Document: Policy Document 6 | Type: Policy | Department: Marketing | Content: This is a policy document containing important HR information and procedures.",
       "metadata": {
-        "type": "policy",
-        "id": "policy_001",
-        "title": "Benefits Policy",
-        "department": "All",
-        "priority": "Medium",
-        "source": "policy_document"
+        "type": "document",
+        "id": "doc_006",
+        "title": "Policy Document 6",
+        "doc_type": "Policy",
+        "department": "Marketing",
+        "source": "hr_document"
       },
-      "score": 0.5438882112503052,
-      "similarity": 0.5438882112503052
+      "score": 0.17480672895908356,
+      "similarity": 0.17480672895908356
     },
     {
       "rank": 3,
-      "content": "Document: Policy Document 15 | Type: Policy | Department: Finance | Content: This is a policy document containing important HR information and procedures.",
+      "content": "Document: Policy Document 8 | Type: Policy | Department: Operations | Content: This is a policy document containing important HR information and procedures.",
       "metadata": {
         "type": "document",
-        "id": "doc_015",
-        "title": "Policy Document 15",
+        "id": "doc_008",
+        "title": "Policy Document 8",
         "doc_type": "Policy",
-        "department": "Finance",
+        "department": "Operations",
         "source": "hr_document"
       },
-      "score": 0.2095799744129181,
-      "similarity": 0.2095799744129181
+      "score": 0.17109403014183044,
+      "similarity": 0.17109403014183044
     }
   ],
   "How to request parental leave?": [
     {
       "rank": 1,
-      "content": "Document: Time Off Request Form | Type: Form | Department: Legal | Content: Time Off Request Form - Use this form to request vacation, sick leave, or personal time off.",
+      "content": "Document: Training Request Form | Type: Form | Department: Finance | Content: Training Request Form - Request approval for external training or conference attendance.",
       "metadata": {
         "type": "document",
         "id": "doc_003",
-        "title": "Time Off Request Form",
+        "title": "Training Request Form",
         "doc_type": "Form",
-        "department": "Legal",
+        "department": "Finance",
         "source": "hr_document"
       },
-      "score": 0.5544369220733643,
-      "similarity": 0.5544369220733643
+      "score": 0.31123918294906616,
+      "similarity": 0.31123918294906616
     },
     {
       "rank": 2,
-      "content": "Document: Training Request Form | Type: Form | Department: Legal | Content: Training Request Form - Request approval for external training or conference attendance.",
+      "content": "Document: Training Request Form | Type: Form | Department: Sales | Content: Training Request Form - Request approval for external training or conference attendance.",
       "metadata": {
         "type": "document",
-        "id": "doc_012",
+        "id": "doc_007",
         "title": "Training Request Form",
         "doc_type": "Form",
-        "department": "Legal",
+        "department": "Sales",
         "source": "hr_document"
       },
-      "score": 0.32633310556411743,
-      "similarity": 0.32633310556411743
+      "score": 0.30748283863067627,
+      "similarity": 0.30748283863067627
     },
     {
       "rank": 3,
-      "content": "Document: Exit Interview Procedure | Type: Procedure | Department: Finance | Content: Exit Interview Procedure - Process for conducting exit interviews with departing employees.",
+      "content": "Document: Exit Interview Procedure | Type: Procedure | Department: HR | Content: Exit Interview Procedure - Process for conducting exit interviews with departing employees.",
       "metadata": {
         "type": "document",
         "id": "doc_011",
         "title": "Exit Interview Procedure",
         "doc_type": "Procedure",
-        "department": "Finance",
+        "department": "HR",
         "source": "hr_document"
       },
-      "score": 0.2941332459449768,
-      "similarity": 0.2941332459449768
+      "score": 0.30690574645996094,
+      "similarity": 0.30690574645996094
     }
   ],
   "What is the dress code policy?": [
     {
       "rank": 1,
-      "content": "Policy: Diversity Policy | Type: Diversity | Department: HR | Priority: High | Content: The company is committed to fostering a diverse and inclusive workplace. We prohibit discrimination based on race, gender, age, religion, sexual orientation, or any other protected characteristic. Diversity training is mandatory for all employees and managers.",
+      "content": "Policy: Code of Conduct Policy | Type: Code of Conduct | Department: Finance | Priority: Low | Content: All employees must maintain the highest standards of professional conduct. This includes treating colleagues with respect, maintaining confidentiality, avoiding conflicts of interest, and complying with all applicable laws and regulations. Violations may result in disciplinary action up to and including termination.",
       "metadata": {
         "type": "policy",
         "id": "policy_005",
-        "title": "Diversity Policy",
-        "department": "HR",
-        "priority": "High",
-        "source": "policy_document"
-      },
-      "score": 0.4455954432487488,
-      "similarity": 0.4455954432487488
-    },
-    {
-      "rank": 2,
-      "content": "Policy: Safety Policy | Type: Safety | Department: Marketing | Priority: Low | Content: Employee safety is our top priority. All employees must follow safety protocols, report hazards immediately, and participate in required safety training. Personal protective equipment will be provided where necessary. Emergency procedures are posted throughout the facility.",
-      "metadata": {
-        "type": "policy",
-        "id": "policy_002",
-        "title": "Safety Policy",
-        "department": "Marketing",
+        "title": "Code of Conduct Policy",
+        "department": "Finance",
         "priority": "Low",
         "source": "policy_document"
       },
-      "score": 0.3995049297809601,
-      "similarity": 0.3995049297809601
+      "score": 0.5351002812385559,
+      "similarity": 0.5351002812385559
     },
     {
-      "rank": 3,
-      "content": "Policy: Training Policy | Type: Training | Department: Engineering | Priority: High | Content: The company is committed to employee development through various training programs. All employees must complete mandatory compliance training annually. Professional development opportunities are available with manager approval. Training records are maintained by HR.",
+      "rank": 2,
+      "content": "Policy: Code of Conduct Policy | Type: Code of Conduct | Department: All | Priority: High | Content: All employees must maintain the highest standards of professional conduct. This includes treating colleagues with respect, maintaining confidentiality, avoiding conflicts of interest, and complying with all applicable laws and regulations. Violations may result in disciplinary action up to and including termination.",
       "metadata": {
         "type": "policy",
-        "id": "policy_006",
-        "title": "Training Policy",
-        "department": "Engineering",
+        "id": "policy_002",
+        "title": "Code of Conduct Policy",
+        "department": "All",
         "priority": "High",
         "source": "policy_document"
       },
-      "score": 0.38618820905685425,
-      "similarity": 0.38618820905685425
+      "score": 0.5254548788070679,
+      "similarity": 0.5254548788070679
+    },
+    {
+      "rank": 3,
+      "content": "Policy: Diversity Policy | Type: Diversity | Department: Operations | Priority: Medium | Content: The company is committed to fostering a diverse and inclusive workplace. We prohibit discrimination based on race, gender, age, religion, sexual orientation, or any other protected characteristic. Diversity training is mandatory for all employees and managers.",
+      "metadata": {
+        "type": "policy",
+        "id": "policy_004",
+        "title": "Diversity Policy",
+        "department": "Operations",
+        "priority": "Medium",
+        "source": "policy_document"
+      },
+      "score": 0.45104342699050903,
+      "similarity": 0.45104342699050903
     }
   ],
   "How do I report harassment?": [
@@ -268,7 +268,7 @@
       "content": "Document: Disciplinary Action Procedure | Type: Procedure | Department: Sales | Content: Disciplinary Action Procedure - Guidelines for addressing performance and conduct issues.",
       "metadata": {
         "type": "document",
-        "id": "doc_004",
+        "id": "doc_015",
         "title": "Disciplinary Action Procedure",
         "doc_type": "Procedure",
         "department": "Sales",
@@ -279,75 +279,75 @@
     },
     {
       "rank": 2,
-      "content": "Document: Disciplinary Action Procedure | Type: Procedure | Department: All | Content: Disciplinary Action Procedure - Guidelines for addressing performance and conduct issues.",
+      "content": "Document: Grievance Procedure | Type: Procedure | Department: Engineering | Content: Grievance Procedure - Process for employees to file complaints and seek resolution.",
       "metadata": {
         "type": "document",
         "id": "doc_005",
-        "title": "Disciplinary Action Procedure",
+        "title": "Grievance Procedure",
         "doc_type": "Procedure",
-        "department": "All",
+        "department": "Engineering",
         "source": "hr_document"
       },
-      "score": 0.3799404501914978,
-      "similarity": 0.3799404501914978
+      "score": 0.33744463324546814,
+      "similarity": 0.33744463324546814
     },
     {
       "rank": 3,
-      "content": "Document: Disciplinary Action Procedure | Type: Procedure | Department: Operations | Content: Disciplinary Action Procedure - Guidelines for addressing performance and conduct issues.",
+      "content": "Policy: Code of Conduct Policy | Type: Code of Conduct | Department: All | Priority: High | Content: All employees must maintain the highest standards of professional conduct. This includes treating colleagues with respect, maintaining confidentiality, avoiding conflicts of interest, and complying with all applicable laws and regulations. Violations may result in disciplinary action up to and including termination.",
       "metadata": {
-        "type": "document",
-        "id": "doc_016",
-        "title": "Disciplinary Action Procedure",
-        "doc_type": "Procedure",
-        "department": "Operations",
-        "source": "hr_document"
+        "type": "policy",
+        "id": "policy_002",
+        "title": "Code of Conduct Policy",
+        "department": "All",
+        "priority": "High",
+        "source": "policy_document"
       },
-      "score": 0.3653528094291687,
-      "similarity": 0.3653528094291687
+      "score": 0.22294685244560242,
+      "similarity": 0.22294685244560242
     }
   ],
   "What are the remote work policies?": [
     {
       "rank": 1,
-      "content": "Policy: Safety Policy | Type: Safety | Department: Marketing | Priority: Low | Content: Employee safety is our top priority. All employees must follow safety protocols, report hazards immediately, and participate in required safety training. Personal protective equipment will be provided where necessary. Emergency procedures are posted throughout the facility.",
+      "content": "Policy: Remote Work Policy | Type: Remote Work | Department: Legal | Priority: Medium | Content: The company supports flexible work arrangements including remote work options. Employees may work remotely up to 3 days per week with manager approval. Remote work agreements must be documented and reviewed quarterly. All remote workers must maintain reliable internet and appropriate workspace.",
       "metadata": {
         "type": "policy",
-        "id": "policy_002",
-        "title": "Safety Policy",
-        "department": "Marketing",
-        "priority": "Low",
+        "id": "policy_008",
+        "title": "Remote Work Policy",
+        "department": "Legal",
+        "priority": "Medium",
         "source": "policy_document"
       },
-      "score": 0.38850152492523193,
-      "similarity": 0.38850152492523193
+      "score": 0.7411239743232727,
+      "similarity": 0.7411239743232727
     },
     {
       "rank": 2,
-      "content": "Policy: Training Policy | Type: Training | Department: Engineering | Priority: High | Content: The company is committed to employee development through various training programs. All employees must complete mandatory compliance training annually. Professional development opportunities are available with manager approval. Training records are maintained by HR.",
+      "content": "Policy: Code of Conduct Policy | Type: Code of Conduct | Department: All | Priority: High | Content: All employees must maintain the highest standards of professional conduct. This includes treating colleagues with respect, maintaining confidentiality, avoiding conflicts of interest, and complying with all applicable laws and regulations. Violations may result in disciplinary action up to and including termination.",
       "metadata": {
         "type": "policy",
-        "id": "policy_006",
-        "title": "Training Policy",
-        "department": "Engineering",
+        "id": "policy_002",
+        "title": "Code of Conduct Policy",
+        "department": "All",
         "priority": "High",
         "source": "policy_document"
       },
-      "score": 0.38557037711143494,
-      "similarity": 0.38557037711143494
+      "score": 0.4002687335014343,
+      "similarity": 0.4002687335014343
     },
     {
       "rank": 3,
-      "content": "Document: Policy Document 9 | Type: Policy | Department: Legal | Content: This is a policy document containing important HR information and procedures.",
+      "content": "Policy: Code of Conduct Policy | Type: Code of Conduct | Department: Finance | Priority: Low | Content: All employees must maintain the highest standards of professional conduct. This includes treating colleagues with respect, maintaining confidentiality, avoiding conflicts of interest, and complying with all applicable laws and regulations. Violations may result in disciplinary action up to and including termination.",
       "metadata": {
-        "type": "document",
-        "id": "doc_009",
-        "title": "Policy Document 9",
-        "doc_type": "Policy",
-        "department": "Legal",
-        "source": "hr_document"
+        "type": "policy",
+        "id": "policy_005",
+        "title": "Code of Conduct Policy",
+        "department": "Finance",
+        "priority": "Low",
+        "source": "policy_document"
       },
-      "score": 0.328696072101593,
-      "similarity": 0.328696072101593
+      "score": 0.3937813937664032,
+      "similarity": 0.3937813937664032
     }
   ]
 }
